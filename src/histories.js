@@ -220,8 +220,8 @@ export const relativisticHistories = [
                 clientSend: 30,
                 clientAck: 40,
                 systemTime: 35,
-                clientOperation: READ_OP,
-                opValue: 2,
+                clientOperation: CAS_OP,
+                opValue: [2, 3],
                 clientPid: CLIENT_A_PID,
             },
             {
